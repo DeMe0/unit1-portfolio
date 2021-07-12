@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   /* background-color: #4f4f4f; */
-  background: linear-gradient(black, gray, #fce79e, transparent);
+  background: linear-gradient(black, #fce79e, transparent);
 }
 
 nav {
@@ -45,5 +45,5 @@ div.blurb {
 }
 
 header img {
-  max-width: 33%;
+  max-width: 50%;
 }
