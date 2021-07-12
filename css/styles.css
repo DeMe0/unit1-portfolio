@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 20;
+  box-sizing: border-box;
+  border: 1px black solid;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
