@@ -2,4 +2,7 @@
   .link {
     display: none;
   }
+  header img {
+    width: 33%;
+  }
 }

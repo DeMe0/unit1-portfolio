@@ -9,7 +9,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #4f4f4f;
+  /* background-color: #4f4f4f; */
+  background: linear-gradient(wheat, transparent);
 }
 
 nav {
@@ -19,7 +20,7 @@ nav {
   /* align-items: flex-end; */
 }
 
-ul {
+nav ul {
   padding: 20px;
   display: flex;
   justify-content: space-around;
