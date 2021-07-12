@@ -36,3 +36,7 @@ div.blurb {
   height: 400px;
   text-align: center;
 }
+
+header img {
+  max-width: 33%;
+}

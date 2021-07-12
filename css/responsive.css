@@ -2,7 +2,7 @@
   .link {
     display: none;
   }
-  header img {
-    width: 33%;
-  }
+  /* header img {
+    max-width: 33%;
+  } */
 }
