@@ -12,6 +12,10 @@ header {
   /* background-color: #4f4f4f; */
   background: linear-gradient(black, #fce79e, black);
 }
+header img {
+  max-width: 50%;
+  border: 5px black solid;
+}
 
 nav {
   width: 50%;
@@ -44,9 +48,4 @@ div.banner {
 div.blurb {
   height: 400px;
   text-align: center;
-}
-
-header img {
-  max-width: 50%;
-  border: 5px black solid;
 }
