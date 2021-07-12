@@ -12,14 +12,6 @@ header {
   background-color: #4f4f4f;
 }
 
-header .menu-icon {
-  width: 25px;
-  height: 25px;
-  background: url(https://mars.nasa.gov/assets/ui_sprite@2x.png) 0 0;
-  background-size: 300px;
-  z-index: 100;
-}
-
 nav {
   width: 50%;
   /* display: flex; */
@@ -37,4 +29,9 @@ div.banner {
   height: 50px;
   text-align: center;
   padding-top: 13px;
+}
+
+div.blurb {
+  height: 400px;
+  text-align: center;
 }
