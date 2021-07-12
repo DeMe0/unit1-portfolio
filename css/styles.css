@@ -34,9 +34,11 @@ nav ul {
 }
 
 div.banner {
-  height: 50px;
+  font-size: 0.8em;
+  height: 40px;
   text-align: center;
-  padding-top: 13px;
+  padding-top: 10px;
+  border: 1px black solid;
 }
 
 div.blurb {
