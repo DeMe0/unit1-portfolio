@@ -10,7 +10,13 @@
   .link {
     display: inline-block;
   }
+  header img {
+    max-width: 35%;
+  }
 }
 /* RESPONSIVE FOR DESKTOP */
 @media only screen and (min-width: 1024px) {
+  header img {
+    max-width: 35%;
+  }
 }
