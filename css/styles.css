@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   /* background-color: #4f4f4f; */
-  background: linear-gradient(wheat, transparent);
+  background: linear-gradient(black, gray, wheat, transparent);
 }
 
 nav {
@@ -18,6 +18,13 @@ nav {
   /* display: flex; */
   /* justify-content: space-around; */
   /* align-items: flex-end; */
+}
+.link {
+  display: none;
+  color: whitesmoke;
+  text-shadow: 2px 2px black;
+  font-size: 1.2em;
+  font-family: "Varela Round", sans-serif;
 }
 
 nav ul {
