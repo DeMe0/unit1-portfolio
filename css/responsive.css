@@ -26,11 +26,14 @@
   }
   #card1,
   #card2,
-  #card3 {
+  #card3,
+  #card4,
+  #card5,
+  #card6 {
     width: 307px;
     height: 300px;
     margin: 30px auto;
-    padding: 30px;
+    /* padding: 30px; */
   }
 }
 /* RESPONSIVE FOR DESKTOP */
@@ -59,10 +62,12 @@
   }
   #card1,
   #card2,
-  #card3 {
+  #card3,
+  #card4,
+  #card5,
+  #card6 {
     width: 286px;
     height: 263px;
     margin: 30px auto;
-    padding: 30px;
   }
 }

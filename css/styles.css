@@ -64,13 +64,21 @@ div.projects {
 
 #card1,
 #card2,
-#card3 {
+#card3,
+#card4,
+#card5,
+#card6 {
   border: 1px black solid;
   width: 255px;
   height: 200px;
   margin: 20px auto;
-  padding-bottom: 20px;
-  padding: 20px;
+  /* padding-bottom: 20px;
+  padding: 20px; */
+}
+div.projects li p {
+  color: black;
+  background: radial-gradient(transparent, lightgrey);
+  padding: 10px;
 }
 
 footer {
