@@ -27,6 +27,9 @@
     height: 300px;
     margin: 30px auto;
   }
+  div.projects li p {
+    top: 262px;
+  }
 }
 /* RESPONSIVE FOR DESKTOP */
 @media only screen and (min-width: 1024px) {
@@ -45,7 +48,7 @@
   }
 
   div.projects ul {
-    height: fit-content;
+    /* height: fit-content; */
     display: flex;
     flex-flow: row wrap;
     padding: 20px;
@@ -61,5 +64,15 @@
     width: 286px;
     height: 263px;
     margin: 30px auto;
+  }
+  div.projects li p {
+    top: 225px;
+  }
+}
+
+/* RESPONSIVE FOR EXTRAORDINARY LARGE SCREENS */
+@media only screen and (min-width: 1180px) {
+  div.projects ul {
+    max-width: 1000px;
   }
 }

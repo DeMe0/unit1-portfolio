@@ -56,6 +56,7 @@ div.projects ul {
   flex-direction: column;
   /* justify-content: center; */
   padding: 20px;
+  margin: auto;
 }
 
 div.projects {
@@ -79,6 +80,8 @@ div.projects li p {
   color: black;
   background: radial-gradient(transparent, lightgrey);
   padding: 10px;
+  position: relative;
+  top: 162px;
 }
 
 footer {
