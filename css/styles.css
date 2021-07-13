@@ -47,9 +47,23 @@ div.banner {
 }
 
 div.blurb {
+  display: flex;
+  flex-direction: column;
   height: 400px;
   text-align: center;
+  align-items: center;
+  justify-content: space-around;
 }
+
+div.blurb h1 {
+  font-size: x-large;
+  font-weight: 800;
+}
+
+div.blurb img {
+  max-width: 50%;
+}
+
 div.projects ul {
   height: fit-content;
   display: flex;

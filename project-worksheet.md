@@ -35,8 +35,8 @@ Search and compare at least 3 profile web sites. Record your findings in the tab
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://res.cloudinary.com/ademeo/image/upload/v1626205120/Portfolio%20Hand%20Drawn%20Mobile%20Mockup.jpg)
+- [Desktop](https://res.cloudinary.com/ademeo/image/upload/v1626205119/Portfolio%20Hand-Drawn%20Desktop%20Mock%20Up.jpg)
 
 Wireframing Resources:
 
