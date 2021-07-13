@@ -33,7 +33,6 @@
     width: 307px;
     height: 300px;
     margin: 30px auto;
-    /* padding: 30px; */
   }
 }
 /* RESPONSIVE FOR DESKTOP */
@@ -56,10 +55,10 @@
     height: fit-content;
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: center; */
     padding: 20px;
     padding-bottom: 40px;
   }
+
   #card1,
   #card2,
   #card3,
