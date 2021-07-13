@@ -12,6 +12,7 @@ header {
   /* background-color: #4f4f4f; */
   background: linear-gradient(to right, #fce79e, #fce79e, black);
   border: 5px solid black;
+  height: 150px;
 }
 header img {
   max-width: 50%;
