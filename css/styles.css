@@ -83,6 +83,9 @@ div.blurb p {
   font-family: "Nova Round", cursive;
   font-size: 0.9em;
 }
+div.blurb h2 {
+  font-family: "Nova Round", cursive;
+}
 
 div.blurb img {
   max-width: 50%;
@@ -123,5 +126,31 @@ div.projects li p {
 }
 
 footer {
-  height: 16px;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #fce79e,
+    #fce79e,
+    #fce79e,
+    #fce79e,
+    black
+  );
+}
+.footerLink {
+  color: whitesmoke;
+  text-shadow: 2px 2px black;
+  font-size: 0.9em;
+  font-family: "Varela Round", sans-serif;
+}
+a {
+  text-decoration: none;
 }
