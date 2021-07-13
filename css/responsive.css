@@ -16,7 +16,6 @@
   }
   header img {
     max-width: 35%;
-    border: 5px black solid;
   }
   div.banner {
     font-size: 1em;
@@ -24,6 +23,14 @@
     text-align: center;
     padding-top: 13px;
     border: 1px black solid;
+  }
+  #card1,
+  #card2,
+  #card3 {
+    width: 307px;
+    height: 300px;
+    margin: 30px auto;
+    padding: 30px;
   }
 }
 /* RESPONSIVE FOR DESKTOP */
@@ -33,7 +40,6 @@
   }
   header img {
     max-width: 35%;
-    border: 5px black solid;
   }
   div.banner {
     font-size: 1.3em;
@@ -41,5 +47,22 @@
     text-align: center;
     padding-top: 15px;
     border: 1px black solid;
+  }
+
+  div.projects ul {
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: center; */
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  #card1,
+  #card2,
+  #card3 {
+    width: 286px;
+    height: 263px;
+    margin: 30px auto;
+    padding: 30px;
   }
 }

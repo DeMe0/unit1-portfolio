@@ -10,11 +10,12 @@ header {
   justify-content: space-between;
   align-items: center;
   /* background-color: #4f4f4f; */
-  background: linear-gradient(black, #fce79e, black);
+  background: linear-gradient(to right, #fce79e, #fce79e, black);
+  border: 5px solid black;
 }
 header img {
   max-width: 50%;
-  border: 5px black solid;
+  border: 0px 5px black solid;
 }
 
 nav {
@@ -48,4 +49,30 @@ div.banner {
 div.blurb {
   height: 400px;
   text-align: center;
+}
+div.projects ul {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 20px;
+}
+
+div.projects {
+  border: 1px black solid;
+}
+
+#card1,
+#card2,
+#card3 {
+  border: 1px black solid;
+  width: 255px;
+  height: 200px;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+footer {
+  height: 16px;
 }
