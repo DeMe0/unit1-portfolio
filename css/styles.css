@@ -233,8 +233,9 @@ input[type="name"] {
 input[type="email"] {
   width: 49%;
 }
-input[type="text"] {
+input[type="message"] {
   height: 150px;
+  width: 49%;
 }
 input[type="submit"] {
   background: linear-gradient(to right, antiquewhite, lightgrey, gray, black);

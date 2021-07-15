@@ -98,19 +98,22 @@
       </div>
       <div class = "contactMe"> 
         <h2>Please feel free to reach out!</h2>
-        <form>
+        <form
+        action="https://formspree.io/f/xnqlbvzo"
+        method="POST"
+        >
           <input type="name" placeholder="Your Name" />
-          <input type="email" placeholder="Your E-mail" />
-          <input type="text" placeholder="Your Message!" />
+          <input type="email" name="_replyto" placeholder="Your E-mail" />
+          <input type="message" placeholder="Your Message!" />
           <input type="submit" id="submitContact" />
         </form></div>
     </main>
     <footer>
       <ul>
-        <a href=".contactMe"> <div class="footerLink">Home</div> </a>
+        <a href=""> <div class="footerLink">Home</div> </a>
         <a href="#projects"> <div class="footerLink">Portfolio</div></a>
-        <a href=""> <div class="footerLink">About Me</div> </a>
-        <a href=""> <div class="footerLink">Contact Me</div></a>
+        <a href=".footer"> <div class="footerLink">About Me</div> </a>
+        <a href=".footer"> <div class="footerLink">Contact Me</div></a>
       </ul>
     </footer>
     <script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>

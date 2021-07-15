@@ -23,11 +23,11 @@ Use this section to describe your final project and perhaps any links to relevan
 
 Search and compare at least 3 profile web sites. Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
 
-| Link To Site                                         | One Thing I'd Like To Incorporate          |
-| ---------------------------------------------------- | ------------------------------------------ |
-| [denisechandler.com](http://www.denisechandler.com/) | landing page animation                     |
-| [jkeohan.com](http://jkeohan.com/)                   | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/)               | layout of the projects                     |
+| Link To Site                           | One Thing I'd Like To Incorporate                 |
+| -------------------------------------- | ------------------------------------------------- |
+| [mattfarley.ca](http://mattfarley.ca/) | the inclusion of an avatar in my about me section |
+| [jkeohan.com](http://jkeohan.com/)     | hover effects                                     |
+| Startup Matchmaker                     | the banner beneath the nav bar                    |
 
 ---
 
