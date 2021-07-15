@@ -114,6 +114,7 @@ div.blurb {
   text-align: center;
   align-items: center;
   justify-content: space-around;
+  background-image: radial-gradient(white, white, white, gray);
 }
 
 div.blurb h1 {
@@ -149,9 +150,10 @@ div.projects ul {
 div.projects {
   border-top: 3px black solid;
   border-bottom: 3px black solid;
+  background-image: radial-gradient(white, white, white, gray);
 }
 
-#card1,
+/* #card1,
 #card2,
 #card3,
 #card4,
@@ -160,7 +162,7 @@ div.projects {
   border: 1px black solid;
   width: 255px;
   height: 200px;
-  margin: 20px auto;
+  margin: 20px auto; */
   /* padding-bottom: 20px;
   padding: 20px; */
 }
@@ -257,6 +259,7 @@ div.contactMe {
   text-align: center;
   align-items: center;
   justify-content: space-around;
+  background-image: radial-gradient(white, white, white, gray);
 }
 
 div.contactMe h2 {
@@ -270,6 +273,7 @@ div.contactMe img {
 
 /* Footer Styling */
 footer {
+  border-top: 3px black solid;
 }
 footer ul {
   display: flex;
