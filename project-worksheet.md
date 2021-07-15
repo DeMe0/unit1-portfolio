@@ -9,15 +9,21 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Day   | Deliverable                                  | Status     |
 | ----- | -------------------------------------------- | ---------- |
 | Day 1 | Project Description                          | Complete   |
-| Day 1 | Wireframes / Priority Matrix / Timeline      | Incomplete |
-| Day 3 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
+| Day 1 | Wireframes / Priority Matrix / Timeline      | Complete   |
+| Day 3 | Core Application Structure (HTML, CSS, etc.) | Complete   |
 | Day 4 | MVP & Bug Fixes                              | Incomplete |
 | Day 5 | Final Touches                                | Incomplete |
 | Day 6 | Present                                      | Incomplete |
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My goal for this project is to create a functioning template for my portfolio website that can be tweaked and improved upon as we progress with our course. As is, my site is split into a few major sections - the nav bar, the banner div, the blurb div, the projects div and list, the contact me forms, and the footer links. Some of my goals included nailing down the html structure, responsiveness of each element, and styling so that each element is in the correct location at each of our 3 standard viewport widths.
+
+My project pulls data from the linked json file.
+The project data is then appended to a 'ul' in the projects div.
+Mobile - 1 project cards in each viewport's max width
+Tablet - 2 project cards in each viewport's mac width
+Laptop - 3 project cards in each viewport's mac width
 
 ## Portfolio I want to Emulate
 
@@ -61,8 +67,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP (examples)
 
-- Pull data using google json api
-- Render data on page
+- Link all buttons
+- Pin nav bar to the top
 - Allow user to choose favorites
 - Save their choices in firebase
 
@@ -78,17 +84,7 @@ Time frames are also key in the development cycle. You have limited time to code
 
 #### MVP
 
-| Component               | Priority | Estimated Time | Actual Time |
-| ----------------------- | :------: | :------------: | :---------: | --- |
-| Hamburger               |    H     |      1hr       |     hr      |
-| Project Previews        |    H     |      3hr       |     hr      |
-| Regular Nav             |    H     |      1hr       |     hr      |
-| Adding Form             |    H     |     1.5hr      |     hr      |
-| Other sections and flex |    M     |      3hr       |     hr      |
-| Working with API        |    H     |      3hrs      |     hr      |
-| Responsive              |    H     |      3hr       |     hr      | hr  |
-| Social Media Icons      |    L     |      1hr       |     hr      |
-| Total                   |    H     |    15.5hrs     |     hrs     |
+[link](https://docs.google.com/spreadsheets/d/12Ii1l0KEFfNrdmQjDC8u5z1iHqEm7BT8m4sy36tZZVM/edit#gid=0)
 
 #### PostMVP
 
