@@ -1,23 +1,38 @@
-{
-  "title": "Project 1",
-  "description": "Here is my first project description. Here is my first project description. Here is my first project description. Here is my first project description. Here is my first project description. Here is my first project description. Here is my first project description. ",
-  "image": "",
-  "github": "",
-  "linkedin": ""
-}
-
-// {
-//     "title": "Project 2",
-//     "description": "Here is my second project description. Here is my second project description. Here is my second project description. Here is my second project description. Here is my second project description. Here is my second project description. Here is my second project description. ",
-//     "image": "",
-//     "github": "",
-//     "linkedin": "",
-//   };
-
-//   {
-//     "title": "Project 3",
-//     "description": "Here is my first project description. Here is my first project description. Here is my first project description. Here is my first project description. Here is my first project description. Here is my first project description. Here is my first project description. ",
-//     "image": "",
-//     "github": "",
-//     "linkedin": "",
-//   };
+[
+  {
+    "name": "Placeholder Project 1",
+    "image": "https://res.cloudinary.com/ademeo/image/upload/v1626283002/Google.com%20Screenshot.png",
+    "description": "Disclaimer: I did not invent google search lol",
+    "link": "https://google.com/"
+  },
+  {
+    "name": "Placeholder Project 2",
+    "image": "https://res.cloudinary.com/ademeo/image/upload/v1626283117/ESPN%20Screenshot.png",
+    "description": "I didn't create ESPN fantasy football either!",
+    "link": "https://www.espn.com/fantasy/football/"
+  },
+  {
+    "name": "Placeholder Project 3",
+    "image": "https://res.cloudinary.com/ademeo/image/upload/v1626284263/Cloudinary%20Screenshot.png",
+    "description": "I didn't create Cloudinary either!",
+    "link": "https://cloudinary.com/"
+  },
+  {
+    "name": "Placeholder Project 4",
+    "image": "https://res.cloudinary.com/ademeo/image/upload/v1626284263/Cloudinary%20Screenshot.png",
+    "description": "I didn't create Cloudinary either!",
+    "link": "https://cloudinary.com/"
+  },
+  {
+    "name": "Placeholder Project 5",
+    "image": "https://res.cloudinary.com/ademeo/image/upload/v1626284263/Cloudinary%20Screenshot.png",
+    "description": "I didn't create Cloudinary either!",
+    "link": "https://cloudinary.com/"
+  },
+  {
+    "name": "Placeholder Project 6",
+    "image": "https://res.cloudinary.com/ademeo/image/upload/v1626284263/Cloudinary%20Screenshot.png",
+    "description": "I didn't create Cloudinary either!",
+    "link": "https://cloudinary.com/"
+  }
+]

@@ -2,9 +2,10 @@
   margin: 0;
   /* padding: 20; */
   box-sizing: border-box;
-  border: 1px black solid;
+  /* border: 1px black solid; */
 }
 
+/* NAV STYLING START */
 header {
   display: flex;
   justify-content: space-between;
@@ -21,7 +22,8 @@ header {
   border: 5px solid black;
   height: 150px;
 }
-header img {
+
+.logo img {
   max-width: 75%;
   border: 0px 5px black solid;
 }
@@ -29,8 +31,42 @@ header img {
 nav {
   width: 50%;
   /* display: flex; */
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  position: relative;
+
   /* justify-content: space-around; */
   /* align-items: flex-end; */
+}
+
+#nav-menu {
+  display: none;
+  transform: translate(80px, 0);
+  height: 0;
+  transition: all 1s ease-in-out;
+  margin-top: 50px;
+}
+
+#nav-menu.nav-is-open {
+  height: 100%;
+  transform: translate(-145px, 0);
+  text-align: center;
+  cursor: pointer;
+}
+.nav-button {
+  position: absolute;
+  top: 65px;
+  right: 30px;
+  font-size: 1.2em;
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+
+.hamburger {
+  color: black;
+  font-size: 1.3em;
 }
 .link {
   display: none;
@@ -40,12 +76,21 @@ nav {
   font-family: "Varela Round", sans-serif;
 }
 
+.link a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
 nav ul {
   padding: 20px;
   display: flex;
   justify-content: space-around;
 }
 
+/* BANNER STYLING */
 div.banner {
   font-size: 1em;
   height: 40px;
@@ -61,7 +106,7 @@ div.banner {
     black
   );
 }
-
+/* BLURB STYLING */
 div.blurb {
   display: flex;
   flex-direction: column;
@@ -91,6 +136,7 @@ div.blurb img {
   max-width: 50%;
 }
 
+/*  PROJECTS STYLING  */
 div.projects ul {
   height: fit-content;
   display: flex;
@@ -101,7 +147,8 @@ div.projects ul {
 }
 
 div.projects {
-  border: 1px black solid;
+  border-top: 3px black solid;
+  border-bottom: 3px black solid;
 }
 
 #card1,
@@ -117,6 +164,7 @@ div.projects {
   /* padding-bottom: 20px;
   padding: 20px; */
 }
+
 div.projects li p {
   color: black;
   background: radial-gradient(transparent, lightgrey);
@@ -125,6 +173,101 @@ div.projects li p {
   top: 162px;
 }
 
+/* Projects styles */
+.project-name {
+  /* font-size: 2.5rem;
+  color: #ed6e2f;
+  background-color: rgba(48, 48, 52, 0.7);
+  padding-left: 0.3em;
+  margin: 0.2em;
+  border: 1px solid opacity 0;
+  border-radius: 3px; */
+}
+
+/* Card Styles */
+
+.item {
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  width: 255px;
+  height: fit-content;
+  margin: 20px auto;
+  /* background-image: url("https://res.cloudinary.com/ademeo/image/upload/v1626283002/Google.com%20Screenshot.png"); */
+  background-size: cover;
+}
+.item img {
+  border: 1px solid #eee;
+  width: inherit;
+  height: fit-content;
+  /* margin: 20px auto; */
+}
+
+.item .project-name {
+  color: black;
+  background: linear-gradient(to right, transparent, lightgrey);
+  padding: 10px 10px 0 10px;
+  font-family: "Nova Round", cursive;
+  font-size: 1.2em;
+}
+.item .project-info {
+  color: black;
+  background: linear-gradient(to right, transparent, lightgrey);
+  padding: 10px;
+}
+
+/* FORM STYLING */
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+input {
+  margin: 5px;
+}
+input[type="name"] {
+  width: 49%;
+}
+input[type="email"] {
+  width: 49%;
+}
+input[type="text"] {
+  height: 150px;
+}
+input[type="submit"] {
+  background: linear-gradient(to right, antiquewhite, lightgrey, gray, black);
+  /* border: 10px; */
+  color: #fce79e;
+  text-shadow: 2px 2px black;
+  border-radius: 7px;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Contact Me Formatting */
+div.contactMe {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.contactMe h2 {
+  font-family: "Nova Round", cursive;
+  font-size: x-large;
+}
+
+div.contactMe img {
+  max-width: 50%;
+}
+
+/* Footer Styling */
 footer {
 }
 footer ul {
@@ -144,12 +287,14 @@ footer {
     #fce79e,
     black
   );
+  padding-bottom: 30px;
 }
 .footerLink {
   color: whitesmoke;
   text-shadow: 2px 2px black;
   font-size: 0.9em;
   font-family: "Varela Round", sans-serif;
+  padding-top: 30px;
 }
 a {
   text-decoration: none;

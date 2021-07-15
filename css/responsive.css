@@ -10,6 +10,7 @@
   header img {
     max-width: 35%;
   }
+
   div.banner {
     font-size: 1em;
     height: 50px;
@@ -17,12 +18,30 @@
     padding-top: 13px;
     border: 1px black solid;
   }
+
+  div.blurb {
+    /* padding-top: 20%; */
+    height: 700px;
+  }
+  div.blurb h1 {
+    /* padding-top: 20%; */
+    font-size: 2rem;
+  }
+
+  div.projects {
+  }
+
   #card1,
   #card2,
   #card3,
   #card4,
   #card5,
   #card6 {
+    width: 307px;
+    height: 300px;
+    margin: 30px auto;
+  }
+  .item {
     width: 307px;
     height: 300px;
     margin: 30px auto;
